@@ -1,0 +1,28 @@
+<!--
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+   http://www.springframework.org/schema/context
+   http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+    &lt;!&ndash; Definition for profile bean &ndash;&gt;
+    <bean id="messageProcessor" class="com.example.qualifier.demo.message_service.MessageProcessor"
+          abstract="true"></bean>
+
+    &lt;!&ndash; Definition for emailService bean &ndash;&gt;
+    <bean id="emailService" class="com.example.qualifier.demo.message_service.MessageService" abstract="true">
+    </bean>
+
+    &lt;!&ndash; Definition for smsService bean &ndash;&gt;
+    <bean id="smsService" class="com.example.qualifier.demo.message_service.MessageService" abstract="true">
+    </bean>
+
+    &lt;!&ndash; Definition for twitterService bean &ndash;&gt;
+    <bean id="twitterService" class="com.example.qualifier.demo.message_service.MessageService" abstract="true">
+    </bean>
+
+</beans>-->
